@@ -1,15 +1,15 @@
-# kube-status-toy
+# ☸ kube-status-toy
 A toy service to explore kubernetes pod status probes by manipulating liveness- and readyness-probes.
 
 https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes
 
 
-## Build
+## Build :hammer:
 ```bash
 podman build . -t kube-status-toy:v0.0.1-alpha
 ```
 
-## Usage
+## Usage :rocket:
 
 Start the service (locally, using podman)
 ```bash
